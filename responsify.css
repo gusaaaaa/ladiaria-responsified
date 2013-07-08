@@ -1,0 +1,205 @@
+/* ----------------------------------------------
+
+*/
+
+/* ----------------------------------------------
+ *  LaDiaria PALETTE
+ * ---------------------------------------------- */
+
+/*
+  $gray:          #C0C0C0
+  $darkGray:      #808080
+  $turquoise:     #31A3FF
+  $powderBlue:    #DDE9F7
+  $darkGoldenRod: #A59015 (new addition)
+  $navajoWhite:   #F9F5B7 (new addition)
+*/
+
+@media screen and (max-width: 758px) {
+  * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+/* ----------------------------------------------
+ *  GENERAL
+ * ---------------------------------------------- */
+
+  body {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
+  p {
+    line-height: 2rem;
+  }
+
+  #header, #main,
+  #footer .contact ul {
+    width: 100%;
+  }
+
+  #contenido {
+    width: 100%;
+  }
+
+  #strip, #header .user, #sidebar,
+  #footer .paper, #discussion {
+    display: none;
+  }
+
+/* ----------------------------------------------
+ *  ADD THIS
+ * ---------------------------------------------- */
+.addthis_toolbox {
+  margin: 20px 0 0 0 !important;
+}
+
+/* ----------------------------------------------
+ *  HEADER
+ * ---------------------------------------------- */
+
+  #header {
+    margin: 0 auto;
+  }
+
+  #logo {
+    float: none;
+  }
+
+/* ----------------------------------------------
+ *  TOOLBAR
+ * ---------------------------------------------- */
+
+  .toolbar {
+    display: none;
+  }
+
+/* ----------------------------------------------
+ *  MAIN CONTENT
+ * ---------------------------------------------- */
+
+.titlebar {
+  margin-top: 20px;
+}
+
+#contenido {
+  overflow: hidden;
+}
+
+.contentbar {
+  clear: both;
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+
+/* ----------------------------------------------
+ *  NAVIGATION
+ * ---------------------------------------------- */
+
+  #navigation {
+    float: none;
+    display: block;
+    position: static;
+    left: auto;
+    top: auto;
+    margin-top: 10px;
+  }
+  #navigation a {
+    margin: 0;
+    color: inherit;
+  }
+
+  #id_menu {
+    overflow: hidden;
+  }
+  #id_menu li {
+    display: block;
+    width: 16.66%;
+    margin-right: 0;
+  }
+  #id_menu .menu_item {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  #id_menu .menu_item {
+    background-color: #F9F5B7; /* navajoWhite */
+    color: #A59015; /* $darkGoldenRod */
+  }
+  #id_menu .menu_item.opaque {
+    background-color: #31A3FF; /* $turquoise */
+    color: white;
+  }
+  #navigation ul.submenu {
+    background-color: #F9F5B7; /* navajoWhite */
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  #navigation ul.submenu li {
+    margin: 10px 20px 10px 0;
+  }
+  #navigation ul.submenu a {
+    color: #A59015; /* $darkGoldenRod */
+  }
+
+/* ----------------------------------------------
+ *  ARTICLES
+ * ---------------------------------------------- */
+
+  li.article h2 {
+    padding: 10px 0;
+  }
+  li.article .date {
+    font-size: 1rem;
+    color: #808080; /* $darkGray */
+  }
+  li.article .byline {
+    font-size: 1rem;
+    color: #808080; /* $darkGray */
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+  }
+
+  body.article #article {
+    float: none;
+    width: 100%;
+  }
+  body.article div.caption {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  body.article p.deck {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  body.article #body p {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+/* ----------------------------------------------
+ *  FOOTER
+ * ---------------------------------------------- */
+
+  #footer {
+    padding: 0;
+  }
+  #footer .contact ul {
+    padding: 10px;
+    overflow: hidden;
+  }
+}
+
